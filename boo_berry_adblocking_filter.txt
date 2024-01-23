@@ -1,0 +1,166 @@
+﻿! Title: Boo Berry Adblocking filter
+! Description: Additional adblocking filters maintained by whom calls himself Boo Berry.
+! Version: 2.0.0.31
+! TimeUpdated: 2024-01-23
+! Expires: 2 days (update frequency)
+! Whitelist
+@@||paypal.com^$important,document
+@@||bitwarden.com^$important,document
+@@||bitwarden.net^$important,document
+@@||outlook.live.com^$important,document
+@@||mail.proton.me^$important,document
+@@||oisd.nl^$important,document
+@@||time.windows.com^$important
+! Start - RuTracker
+@@||appspot.com^$script,xmlhttprequest,domain=rutracker-org.appspot.com
+@@||chickenkiller.com/ru/ads/userads/templates/*.all.min.css$domain=rutracker-org.appspot.com
+@@||rutrk.org/logo/
+rutracker.appspot.com,rutracker-org.appspot.com,rutracker.cr,rutracker.lib,rutracker.net,rutracker.nl,rutracker.org#?#.attach td[colspan="3"] > ul.middot-separated > li:-abp-has(> a[href^="https://go.nordvpn.net/"])
+rutracker.appspot.com,rutracker-org.appspot.com,rutracker.cr,rutracker.lib,rutracker.net,rutracker.nl,rutracker.org#?#.attach td[colspan="3"] > ul.middot-separated > li:has(> a[href^="https://go.nordvpn.net/"])
+nntt.org,rus-media.org,rutor.in,rutracker.in#%#//scriptlet("prevent-addEventListener", "load", "PopSettings")
+rutracker.appspot.com,pornolab.biz,pornolab.cc,pornolab.lib,pornolab.net,rutracker.appspot.com,rutracker-org.appspot.com,rutracker.cr,rutracker.lib,rutracker.net,rutracker.nl,rutracker.org$$div[class="bn-topic"]
+rutracker.appspot.com,pornolab.biz,pornolab.cc,pornolab.lib,pornolab.net,rutracker.appspot.com,rutracker-org.appspot.com,rutracker.cr,rutracker.lib,rutracker.net,rutracker.nl,rutracker.org$$div[class="bn-bottom"]
+nntt.org,rus-media.org,rutor.in,rutracker.in$$script[tag-content="(function(g,b,a,c,e,d)"]
+|ws*://$domain=0day.kiev.ua|1plus1tv.ru|24tv.ua|24video.adult|24video.in|24video.sex|24video.tube|24video.xxx|24videos.in|24videos.me|24video.vip|37.220.36.15|3dn.ru|3porosenka.ru|4ertik.xxx|4films.net|4torrentgames.net|ace-stream.tv|alexlan.org|alexspirit.ru|all-poster.ru|all-tor.net|allhentai.ru|allhit.club|allhit.org|allhit.tv|allmovie.pro|amovies.biz|anatomia-strasti.com|anekdot.ru|anime-rus.ru|anti-block.org|apostrophe.ua|asbook.net|au-books.com|audilka.com|autonews.com.ua|ave-brasil.ru|badcinema.ru|badtorrent.com|bagnet.org|barca4.ru|baskino-hd.ru|baskinoclub.ru|best-torrentor.ru|bestgamer.net|bestserials.net|big-bang-online.ru|bigbang-tv.net|bigcinema-hd.net|bigcinema-hd.tv|bigcinema-online.net|bigcinema-tv.club|bigcinema-tv.net|bigcinema.org|bigcinema.to|bigcinemahd.net|biqle.ru|bit-tor.org|blogspot.com|blogspot.ru|bludlivaya-california.com|bobfilm-online.ru|bobfilm.biz|bobfilm.club|bobfilm.online|bobfilm1.cc|bobfilm1.co|bobfilm1.net|book-online.com.ua|bookitut.ru|bugaga.ru|buhgalter.com.ua|cccp-kino.com|coldfilm.ru|com-x.life|comedy-film.net|comedy-portal.net|concretejungle.ru|consol-games.net|coocook.me|coop-land.ru|couber.be|creativportal.ru|cwer.ru|cwer.ws|dad-fan.ru|dead-online.net|delfilm.ru|dialog.ua|directadvert.ru|dnevniki-vampira.net|dnevniki-vampira.org|dni24.com|dochronika.ru|dokpro.net|dom23.tv|dom25.tv|dom2tv.info|doramatv.ru|dream-film.tv|dt.ua|dugtor.ru|egeurok.ru|elementarno-tv.com|elise.com.ua|ero-top.com|ex-fs.com|ex-fs.net|f-picture.net|fan-tv.net|fanserials.tv|fantasticfilm.ru|fast-bit.org|fast-tor.net|fast-torrent.org|fast-torrent.ru|fastpicc.ru|favoritemovies.at.ua|filin.tv|film-max.ru|film-tor.org|film720.ru|filmix-online.net|filmogo.co|filmtor.net|filmzguru.ru|findanime.me|findanime.ru|firebit.net|fithacker.ru|fizrukoff.net|football.kulichki.net|football.ua|football24.ua|footballhd.ru|forum.0day.kiev.ua|free-tor.org|free-torrent.org|free-torrent.pw|free-torrents.org|free-torrents.pw|freedom-tor.org|freehat.cc|freerutor.com|freerutor.org|friends-online.co|from-ua.com|fstreker.net|gagadget.com|game-torrent.info|games-reviews.net|gamesontorrent.ru|gazeta.dt.ua|gdzometr.ru|get-tune.cc|gidonline-kino.club|gidonlinehd.ru|gig-torrent.org|gighub.net|glavpost.com|glazovportal.net|gmt-max.org|goblin-online.ru|gooool.org|great-tv.ru|grif-fan.ru|griffiny.ru|grouple.ru|gvirt.com|hd-720.com|hd-720.ucoz.net|hd-720.ucoz.ru|hd-club.ru|hd-dream.ru|hd-kinogo.co|hd-kinomax.net|hd-kinomax.org|hd720.biz|hdgo.cc|hdkino.biz|hdkinoclub.com|hdkinolenta.com|hdkinomax.com|hdkinomax.tv|hdkinoset.net|hdkinoset.org|hdkinoteatr.com|hdrezka2.me|hdzal.net|hentaiz.org|hindcine.net|hotcharts.ru|hothome.info|hronika.info|hvylya.net|igra-prestoloff.cx|ikinohd.co|ikinohd.com|imtw.ru|india-tv.net|informat.com.ua|inopressa.ru|interesnoiveselo.ru|itop-gear.ru|kaifzona.ru|katushka.net|katushka.org|kesemvv.com|kinino.ru|kino-az.net|kino-city.net|kino-dom.org|kino-filmi.net|kino-france.net|kino-fs.ucoz.net|kino-go.club|kino-go.co|kino-hd720.net|kino-kingdom.com|kino-klub.net|kino-klub.org|kino-live.red|kino-live2.org|kino-max.com|kino-online.tv|kino-panda.net|kino-sayt.net|kino-sezon.ru|kino-torrent.net|kino-v-dome.net|kino-v-hd.net|kino-v-online.tv|kino-zal.net|kinobaks.net|kinobal.ru|kinobar.cc|kinobar.kz|kinobay.club|kinobos.com|kinobublik.net|kinoclips.net|kinoclips.tv|kinoclub.cc|kinocok.com|kinodacha.ucoz.ru|kinodema.com|kinodroid.net|kinoflux.org|kinoframe.tv|kinofrog.ru|kinofrukt.club|kinofrukt.net|kinogb.me|kinogb.net|kinogo-2016-net.ru|kinogo-2016.net|kinogo-2017-net.ru|kinogo-2017.com|kinogo-720.club|kinogo-720.co|kinogo-720p.ru|kinogo-club-online.net|kinogo-co-2016.ru|kinogo-dom.com|kinogo-hd-720.club|kinogo-hd.net|kinogo-hdtv.net|kinogo-onlain.net|kinogo-onlain.ru|kinogo-onlaine.net|kinogo-online.com|kinogo-ru.net|kinogo-x.net|kinogo-x.ru|kinogo.by|kinogo.city|kinogo.club|kinogo.eu|kinogo1.club|kinogo16.net|kinogo22.net|kinogo720hd.ru|kinogod.club|kinogod.net|kinogohd.net|kinogol.com|kinogoonline.club|kinograd.tv|kinoguru.co|kinoha.top|kinohome.org|kinohost.nov.ru|kinoklad.net|kinokong.cc|kinokong.net|kinokongo.cc|kinokrad-2017.net|kinokrad-online.net|kinokrad-tv.ru|kinokrad.biz|kinokrad.club|kinokrad.co|kinokrad.su|kinolavr.com|kinoliza.net|kinoluvr.net|kinomafia.tv|kinomagnit.net|kinomassa.net|kinomax.ws|kinomol.ru|kinomoov.net|kinoogo.ru|kinopati.ru|kinopesik.com|kinopirat.net|kinoprofi.club|kinoprofi.org|kinoprofi.tv|kinoprosmotr.net|kinoprosmotr.tv|kinopult.com|kinorebus.net|kinosklad.net|kinosok.org|kinospec.net|kinospy.net|kinostok.tv|kinosweet.net|kinotochka.club|kinotochka.net|kinoveb.tv|kinovideo.tv|kinovo.org|kinozadrot.club|kinozadrot.net|kinozal.me|kinozal.tv|kinozal.website|kinozz.club|kinozz.net|kkkino.club|kkkino.net|klipzona.club|klipzona.co|knijky.ru|kodik.cc|komedra.com|kordonivkakino.tv|korrespondent.net|korzik.net|kosti-tv.com|kp.ua|krutor.org|kubik3.ru|lalapaluza.ru|latino-serialo.ru|libertycity.ru|librebook.ru|libtor.club|linecinema.org|live-rutor.org|live-torrents.ru|livetv-torrent.com|lokomotiv.info|lostfan.ru|lostfilm-online.ru|lostfilmhd.ru|lostfilmonline.ru|loveread.ec|main-rutor.org|meddaily.ru|mega-tor.org|mega-torrent.org|mega-trek.com|megahead.org|megahead.ru|megashara.com|megogo-hd.net|minizal.su|mintmanga.com|mirmegashara.com|mirror-rutor.org|moiserialy.net|moviestape.net|mp3-mus.net|mp3.cc|mp3club24.ru|mp3zv.ru|mrutor.org|multiki-online24.ru|multivarka.tv|multon-line.ru|multyasha.com|muz-color.ru|muzofond.com|muzyka-torrent.ru|my-hit.fm|my-hit.org|my-movies.org|my-music-kiosk.ru|my-tfile.org|myflashgame.com.ua|mymult.net|myserialy.ru|myvideopl.com|naruto-base.su|narutoplanet.ru|nevsedoma.com.ua|new-film.net|new-ru.org|new-rutor.org|new-tor.org|newfilms.online|newrutor.org|newserials.tv|newsmsk.com|newspravda.com|newsru.com|newsyou.info|nice-film.ru|no-block.org|nod32eset.ru|notfilm.ru|novosti-n.org|nowa.cc|nur.kz|ojin.tv|ok-tv.org|oko-planet.su|on-movie.net|onelike.tv|onlainfilm.ucoz.ua|online-futurama.ru|online-life.cc|online-life.in|online-south-park.ru|online.anidub.com|onlinekinohit.ru|onlinemultfilmy.ru|onlyf.net|onlymult.com|open-tor.org|ostfilm.tv|ostfilmtv.org|ovgorskiy.ru|pc-torrents.net|pdalife.ru|pesni-tut.com|pesnik.su|petamusic.ru|planeta-mult.ru|play-apk.ru|pleer.ws|podrobnosti.ua|poiskm.net|poiskm.org|politeka.net|politnavigator.net|popadenec.ru|porjati.ru|pornolab.biz|pornolab.cc|pornolab.lib|pornolab.net|portaltele.com.ua|prnt.sc|prntscr.com|proxy-rutor.org|pure-t.ru|putin-today.ru|qiqru.org|qmp3.cc|qmp3.org|qwasd.ru|rango.tv|readmanga.me|real-game.net|realist.online|rgmechanics.ru|rogoff.club|royallib.com|rp-mechanics.ru|ru-tor.net|rubook.org|rudifilm.com|rufilmtv.org|rupolitshow.ru|rupor.info|rus-tor.com|rusdialog.ru|rusdozor.ru|russiapost.su|rutor.co|rutor.info|rutor.is|rutor.net|rutor.org|rutorent.net|rutorgames.org|rutorka.net|rutracker.club|season-var.net|seasonvar.cc|seasonvar.re|seasonvar.ru|segodnya.ua|selflib.me|seria-z.net|serialguru.ru|serialis.net|serialpro.net|serialsend.ru|serialytut.tv|sexvhd.net|sezon-hd.ru|share-serials.net|sherlok.me|show-online.tv|sibnet.ru|simp-fan.ru|skidows.com|small-game.com|smo333.com|smootrim.ru|smotret-online.kz|smotri-online.me|sobytiya.net|soccer.ru|soccer0010.com|soccer365-1.xyz|soccer365.ru|sovkinofilm.ru|sp-fan.ru|sputniktv.in.ua|srubirubli.ru|sshut.ru|stereotraker.ru|strana.ua|strela-online.com|super-tor.net|sverhestestvenoe.com|tbperedachi.ucoz.ru|teenwolf-tv.com|tes-game.ru|tfile-music.org|tfile.co|tfilm.club|the100-tv.com|theflash-tv.com|tivix.co|tivix.net|tizam.tv|tochka.net|topserial.org|tor-bit.net|tor-ru.net|tor-ru.org|torentor.net|torrent-filmi.net|torrent-soft.net|torrent-zona.com|torrent-zone.ru|torrent2games.net|torrentino.me|torrents-free.ru|torrents-game.net|torrentum.org|torrentum.ru|totori.ru|tparser.org|tracker.hdclub.com.ua|trackerock.ru|trahen.com|tree.tv|trialeset.org|trialeset.ru|trymobile.ru|turboserial.net|turkcinema.tv|turkey-tv.net|turksinema.net|tushkan.club|tut-film.com|tv-300.ru|tv-torrent.club|tv-torrent.org|tvcok.ru|tvfru.net|tvfru.org|tvfru.ru|tvizor.org|tvonline.su|tvseason.net|tvserial-online.biz|tvtorrent.me|ua-cinema.com|uainfo.org|uakino.net|uakino.tv|uchebnik-online.net|uchim.org|ukr.net|ukrlib.com.ua|ukrlit.net|uniongang.net|unionpeer.com|unionpeer.org|univeroff.net|unn.com.ua|unpioneer.com|uraltrack.net|v-torrente.ru|vd-tv.ru|vdvsn.ru|vepizode.net|versii.com|vgorode.ua|vhdkino.net|videokub.online|vikingi-online.net|vinixmult.net|vip-tor.org|vkino-tv.ru|vkinopoiskah.ru|vklipe.com|vserialy.com|vserpg.ru|vsesochineniya.ru|vsetop.com|vsetv.net|vsitv.org|webantiblock.ru|westernfilm.ru|wikianime.ru|wikimovies.ru|wkino.net|women-page.ru|world-ua.com|wsturbo.net|x-bit.net|x-true.info|xhamster.com|ximepa.net|xrutor.org|xuk.net|yallaneliera.com|yaminecraft.ru|yourcinema.tv|youtubetv.com.ua|ytra.ru|zakon.kz|zerkalo-rutor.org|zerx.co|zhd.life|zn.ua|znaj.ua|zona.mobi|zp.today|zpravda.ru|zserials.cc|zserials.net|zserials.ru|zserials.tv|киного-нет.net|киного.net|кинокрад.net|легион.net|спиши-ру.su
+faptime.ru,kremlinmedia.ru,cyberpedia.su,megaobuchalka.ru,rsload.net,gig-games.net,only-soft.org,freetp.org,33porno.com,10torrent.net,6torrent.pro,7themes.su,a-age.ru,babestar.ru,best-torrentor.ru,biblprog.org.ua,cwer.me,cwer.ru,dc-marvel.ru,dom-filmov.net,fast-torrent.co,frogik.ru,gighub.net,goldenshara.org,goodkino.biz,hd-bit.net,kingdia.com,kino-live2.org,kinocok.com,kinohab.online,kriza.com.ua,mskd-ru.net,nashynogi.ru,ojin.tv,openssource.biz,pornotor.org,ru-tor.biz,ru-zerkalo.org,rutorent.net,rutorgames.org,rutracker-2017.org,seasontor.com,seasontor.net,serialpro.net,torentor.co,torentor.net,torrent-am.net,torrent2games.net,torrentik.co,torrentor.co,torrentum.org,tvfru.org,vectornews.net,wotpack.ru,xatab-repack.net##center > a[rel="nofollow"] > img
+rutracker-org.appspot.com##div[style*="width:100%; height:90px;"]
+rutracker.ru##.post_body tr.row1 > td.tCenter > a[href]:not(.seedmed)
+rutracker.ru#?#.post_body tr.row1 > td.tCenter.pad_6:not(:has(> a[href^="dl.php"]))
+rutracker.ru#?##sidebar1-wrap div[align="center"]:has(> h3:contains(Реклама))
+rutracker.ru#?#.post_body tr.row1 > td.tCenter:not(:has(> a.seedmed))
+rutracker.ru##td[style="logoads"]
+rutracker.ru##a[href^="https://ali."]
+rutracker-net.ru##a[href="http://dostup-casino.ru/"]
+rutracker-net.ru##p[style="font-size: 27px; color: rgb(247, 50, 55); font-weight: bold; outline-width: 0px !important; user-select: text !important;"]
+infotechnica.ru,codificator.ru,cat-a-cat.net,rutracker.ru,hd1080px.top,hype.tech,4cheat.ru,apple-iphone.ru,galagram.com,mmoglobus.ru,pluggedin.ru,tivix.co,xboxland.net##a[href^="https://ad.admitad.com/"]
+||rublacklist.net/images/rutracker_image.png
+||rutracker-net.ru/img/rtn/ban/
+||rutracker.org/brand/$image
+||rutracker.org/iframe/
+||rutracker.org/misc/*-240x400
+||rutrk.org^$image
+||rutrk.org/iframe/
+||rutrk.org/bn/
+||static.t-ru.org/templates/v1/images/vpn/vpn_button_
+||static.t-ru.org/images/ali/
+/^(?!.*(google\.com|gstatic\.com|googleapis\.com|recaptcha\.net|ytimg\.com|dmca\.com|:\/\/static.)).*$/$third-party,script,domain=rto-mirror.ml|rutracker.appspot.com|rutracker-org.appspot.com|rutracker.cr|rutracker.lib|rutracker.net|rutracker.nl|rutracker.org
+/^https:\/\/rutrk.org(?!.*(\/logo\/)).*$/$domain=rto-mirror.ml|rutracker.appspot.com|rutracker-org.appspot.com|rutracker.cr|rutracker.lib|rutracker.net|rutracker.nl|rutracker.org
+rto-mirror.ml,rutracker.appspot.com,rutracker-org.appspot.com,rutracker.cr,rutracker.lib,rutracker.net,rutracker.nl,rutracker.org##.bn-bottom
+rto-mirror.ml,rutracker.appspot.com,rutracker-org.appspot.com,rutracker.cr,rutracker.lib,rutracker.net,rutracker.nl,rutracker.org##.ref-1
+rto-mirror.ml,rutracker.appspot.com,rutracker-org.appspot.com,rutracker.cr,rutracker.lib,rutracker.net,rutracker.nl,rutracker.org##.site-nav > ul[style="float: right;"]
+rto-mirror.ml,rutracker.appspot.com,rutracker-org.appspot.com,rutracker.cr,rutracker.lib,rutracker.net,rutracker.nl,rutracker.org###topic_main > tbody:not([id]):not([class]) > tr > td[data-ext_link_data]
+rto-mirror.ml,rutracker.appspot.com,rutracker-org.appspot.com,rutracker.cr,rutracker.lib,rutracker.net,rutracker.nl,rutracker.org##.topic > tbody.hide-for-print > tr[class^="row"] > td.ext-links
+rto-mirror.ml,rutracker.appspot.com,rutracker-org.appspot.com,rutracker.cr,rutracker.lib,rutracker.net,rutracker.nl,rutracker.org##.ali-promocode
+rto-mirror.ml,rutracker.appspot.com,rutracker-org.appspot.com,rutracker.cr,rutracker.lib,rutracker.net,rutracker.nl,rutracker.org##div.bn-t-ali
+rto-mirror.ml,rutracker.appspot.com,rutracker-org.appspot.com,rutracker.cr,rutracker.lib,rutracker.net,rutracker.nl,rutracker.org##a[href^="https://go.nordvpn.net/"]
+rto-mirror.ml,rutracker.appspot.com,rutracker-org.appspot.com,rutracker.cr,rutracker.lib,rutracker.net,rutracker.nl,rutracker.org##div[id^="top-bn-"]
+rto-mirror.ml,rutracker.appspot.com,rutracker-org.appspot.com,rutracker.cr,rutracker.lib,rutracker.net,rutracker.nl,rutracker.org##.text-promo-tracker
+rto-mirror.ml,rutracker.appspot.com,rutracker-org.appspot.com,rutracker.cr,rutracker.lib,rutracker.net,rutracker.nl,rutracker.org###main_content_wrap > table.vf-tor > tbody > tr:not([class]) td[style="padding: 6px 4px 8px;"]
+rto-mirror.ml,rutracker.appspot.com,rutracker-org.appspot.com,rutracker.cr,rutracker.lib,rutracker.net,rutracker.nl,rutracker.org##.ref-topic-guest
+rto-mirror.ml,rutracker.appspot.com,rutracker-org.appspot.com,rutracker.cr,rutracker.lib,rutracker.net,rutracker.nl,rutracker.org###main-nav > ul.floatR
+rutracker.appspot.com,pornolab.biz,pornolab.cc,pornolab.lib,pornolab.net,rutracker.appspot.com,rutracker-org.appspot.com,rutracker.cr,rutracker.lib,rutracker.net,rutracker.nl,rutracker.org###page_header > div#main-nav + div[style] > a[target="_blank"][style]
+rutracker.appspot.com,pornolab.biz,pornolab.cc,pornolab.lib,pornolab.net,rutracker.appspot.com,rutracker-org.appspot.com,rutracker.cr,rutracker.lib,rutracker.net,rutracker.nl,rutracker.org##.t-body-txt-ad
+rutracker.appspot.com,pornolab.biz,pornolab.cc,pornolab.lib,pornolab.net,rutracker.appspot.com,rutracker-org.appspot.com,rutracker.cr,rutracker.lib,rutracker.net,rutracker.nl,rutracker.org##.attach > tbody > tr[class="row3 tCenter"]:last-child
+rutracker.appspot.com,pornolab.biz,pornolab.cc,pornolab.lib,pornolab.net,rutracker.appspot.com,rutracker-org.appspot.com,rutracker.cr,rutracker.lib,rutracker.net,rutracker.nl,rutracker.org###adriver-240x120
+rutracker.appspot.com,pornolab.biz,pornolab.cc,pornolab.lib,pornolab.net,rutracker.appspot.com,rutracker-org.appspot.com,rutracker.cr,rutracker.lib,rutracker.net,rutracker.nl,rutracker.org###bn-bot-wrap
+rutracker.appspot.com,pornolab.biz,pornolab.cc,pornolab.lib,pornolab.net,rutracker.appspot.com,rutracker-org.appspot.com,rutracker.cr,rutracker.lib,rutracker.net,rutracker.nl,rutracker.org###bn-mg-bottom
+rutracker.appspot.com,pornolab.biz,pornolab.cc,pornolab.lib,pornolab.net,rutracker.appspot.com,rutracker-org.appspot.com,rutracker.cr,rutracker.lib,rutracker.net,rutracker.nl,rutracker.org###bn-topic-block
+rutracker.appspot.com,pornolab.biz,pornolab.cc,pornolab.lib,pornolab.net,rutracker.appspot.com,rutracker-org.appspot.com,rutracker.cr,rutracker.lib,rutracker.net,rutracker.nl,rutracker.org###bn-top-block
+rutracker.appspot.com,pornolab.biz,pornolab.cc,pornolab.lib,pornolab.net,rutracker.appspot.com,rutracker-org.appspot.com,rutracker.cr,rutracker.lib,rutracker.net,rutracker.nl,rutracker.org##.bn-topic
+rutracker.appspot.com,pornolab.biz,pornolab.cc,pornolab.lib,pornolab.net,rutracker.appspot.com,rutracker-org.appspot.com,rutracker.cr,rutracker.lib,rutracker.net,rutracker.nl,rutracker.org##div[class^="bn-idx"]
+rutracker.appspot.com,pornolab.biz,pornolab.cc,pornolab.lib,pornolab.net,rutracker.appspot.com,rutracker-org.appspot.com,rutracker.cr,rutracker.lib,rutracker.net,rutracker.nl,rutracker.org##div[id^="topic-bn-"]
+rutracker.appspot.com,pornolab.biz,pornolab.cc,pornolab.lib,pornolab.net,rutracker.appspot.com,rutracker-org.appspot.com,rutracker.cr,rutracker.lib,rutracker.net,rutracker.nl,rutracker.org##img[style^="width: 240px; height:"]
+rutracker.org##.p-ext-link, .p-ext-link-initialized
+rutracker.org##.ext-links
+! End - RuTracker
+! Start - TMZ
+tmz.com##DIV#follow-tmz
+tmz.com##DIV#legalbar
+tmz.com###sidebar
+tmz.com###tmz-partner-links
+tmz.com###toofab-feed-promo
+tmz.com###browser-notifications-prompt
+tmz.com##.spotlight__card, .spotlight__card--toofab
+||media.tmz.com/*groupon*$domain=tmz.com
+||media.tmz.com/*tour*promo*.*$domain=tmz.com
+https://media.tmz.com/*/tmz-store-right-rail-week-*.jpg$domain=tmz.com
+https://media.tmz.com/*/tmz-tour-300x600*.jpg$domain=tmz.com
+tmz.com##DIV#grv-personalization-23
+tmz.com##IMG[alt="TMZ Sports Show"]
+tmz.com##IMG[alt="TMZ TOUR"]
+tmz.com##DIV#adpos3
+tmz.com##div[data-url="/_/promotion/home-blogroll-after-9/blogroll.html"]
+tmz.com##div[data-url="/_/promotion/home-blogroll-after-12/blogroll.html"]
+tmz.com##div[data-url="/_/promotion/home-blogroll-after-15/blogroll.html"]
+tmz.com##IMG[alt="tmz tour promo"]
+tmz.com##.ad-container, .ad-size-medium-rectangle
+tmz.com##.ad-container, .ad-size-leaderboard
+tmz.com##div[class^="sidebar-ad-wrapper"]
+tmz.com##div#ad-footer
+tmz.com##div#ad-adhesion.ad-container.ad-size-leaderboard
+tmz.com##div#ad-interstitial
+tmz.com##div#ad-skin
+tmz.com#$#body > img[alt="tmz tour promo"] { display: none !important; }
+||minigames.versusgame.com/widget/
+||playlist.megaphone.fm/
+! End - TMZ
+! Start - KY3
+ky3.com##.sponsor-name
+ky3.com##.taboola-feature
+ky3.com###homepage-alternate-layout > div.container-xl:nth-child(5) > div.row > div.col-12.d-flex.flex-column.flex-lg-row.w-100:nth-child(4) > section.middle-left-rail.\|.rail.d-flex.flex-column.flex-lg-fill:first-child
+ky3.com###homepage-alternate-layout > div.container-xl:nth-child(5) > div.row > section.middle-bottom.\|.col-12:last-child > div.taboola-feed.\|.w-100.mb-3:nth-child(2)
+ky3.com###homepage-alternate-layout > div.container-xl:nth-child(5) > div.row > section.middle-wrapped.\|.col-12:nth-child(3) > div.double-chain.\|.chain.d-flex.flex-column.mb-3:nth-child(2) > div.row.mx-n2.mb-n3.position-relative:last-child > div.right-column.px-2.col-12.col-md-12.col-lg-4.col-xl-4:last-child > div.flex-feature-feed.\|.mb-0 > div.card-deck.mx-n2.mb-0.h-100
+ky3.com###homepage-alternate-layout > div.container-xl:nth-child(5) > div.row > section.middle-wrapped.\|.col-12:nth-child(3) > div.double-chain.\|.chain.d-flex.flex-column.mb-3:nth-child(2) > div.title-bar.\|:first-child > h3.title.\|.font-weight-bold
+! Test KY3 Homepage Test Filters
+ky3.com##.w-100.position-relative.image-center.border-0.bg-transparent.align-items-start.mb-3.card.\|.flex-feature
+ky3.com##.align-self-center.mw-100.sponsor-image-container
+ky3.com##div.mb-3.flex-column.d-flex.chain.\|.default-chain:nth-of-type(3) > .position-relative.mb-n3.mx-n2.justify-content-center.flex-wrap.flex-row.d-flex > div.col-xl-12.col-lg-12.col-md-4.col-12.flex-column.d-flex.px-2.\|.chain-item:nth-of-type(1)
+ky3.com##div.mb-3.flex-column.d-flex.chain.\|.default-chain:nth-of-type(3) > .position-relative.mb-n3.mx-n2.justify-content-center.flex-wrap.flex-row.d-flex > div.col-xl-12.col-lg-12.col-md-4.col-12.flex-column.d-flex.px-2.\|.chain-item:nth-of-type(2)
+ky3.com##div.mb-3.flex-column.d-flex.chain.\|.default-chain:nth-of-type(3) > .position-relative.mb-n3.mx-n2.justify-content-center.flex-wrap.flex-row.d-flex > div.col-xl-12.col-lg-12.col-md-4.col-12.flex-column.d-flex.px-2.\|.chain-item:nth-of-type(3)
+ky3.com##div.col-xl-12.col-lg-12.col-md-4.col-12.flex-column.d-flex.px-2.\|.chain-item:nth-of-type(4)
+ky3.com##div.col-xl-12.col-lg-12.col-md-4.col-12.flex-column.d-flex.px-2.\|.chain-item:nth-of-type(5)
+ky3.com##div.col-xl-12.col-lg-12.col-md-4.col-12.flex-column.d-flex.px-2.\|.chain-item:nth-of-type(6)
+ky3.com##.flex-lg-fill.flex-column.d-flex.rail.\|.top-right-rail > div.mb-3.flex-column.d-flex.chain.\|.default-chain:nth-of-type(3)
+ky3.com###homepage-alternate-layout > div.container-xl:nth-child(5) > div.row > div.col-12.d-flex.flex-column.flex-lg-row.w-100:nth-child(2) > section.top-featured.\|.flex-lg-fill.mr-lg-3:first-child > div.hero.\|.mb-3:first-child > div.row.no-gutters > div.hero-right.col-lg-5.col-md-5.col-sm-12.pl-md-2:nth-child(2) > div.flex-feature.\|.card.mb-3.align-items-start.bg-transparent.border-0.image-left.position-relative.w-100:last-child > div.card-body.w-100.px-1.py-0.image_headline > div.small.text-secondary:last-child
+! End - KY3
+! Start - Neowin
+neowin.net##.header-banner-advertising
+neowin.net##div.widget-ad-sidebar-middle.widget-ad.widget
+neowin.net##.widget-ad-sidebar-bottom.stickyAd
+neowin.net###sidebar > div.category-bar:nth-child(2)
+neowin.net###sidebar > div.category-bar:nth-child(3)
+neowin.net###sidebar > div.category-bar:nth-child(4)
+neowin.net###sidebar > div.widget.widget-poll:nth-child(6)
+neowin.net###sidebar > div.widget.widget-poll:nth-child(7)
+neowin.net###sidebar > div.widget.widget-poll:nth-child(8)
+https://cdn.neowin.com/news/images/uploaded/2023/04/1682624434_test_1.png$domain=neowin.net
+https://cdn.neowin.com/news/images/uploaded/2023/04/1682607425_google-news-button-s.png$domain=neowin.net
+! End - Neowin
+phantomsandmonsters.com###ezoic-certification
+ebay.com###gh-hsi
+cart.ebay.com##.banner
+albumartexchange.com##header:first-child > div.grid-container > form:nth-child(2) > input:last-child
+warez-v3.org###phpbb_announcement
+app.mediafire.com###frame1
+forum.adguard.com###top > div.xb-page-wrapper.xb-canvas-menuActive:last-child > div.xb-content-wrapper:nth-child(3) > div.p-body:last-child > div.p-body-inner > div.p-body-main.p-body-main--withSidebar.xb-sidebar-default:nth-child(4) > div.p-body-content:first-child > div.p-body-pageContent > div.block.block--category.block--category3.collapsible-nodes:last-child
+orpheus.network###last_uploads
+amazon.com##div#cbcc_content_container
+amazon.com###cbcc_banner
+ultimate-guitar.com#?#iframe[title="Left side"]
+ultimate-guitar.com#?#iframe[title="Right side"]
+flickr.com##.feed-b
+imgur.com##.EmeraldButton, .Button
+imgur.com##.emerald-button
+superdeluxeedition.com##.newsletter-popup, .active
+adit-hd.com##.bam_announcement, .red
+dragonball.fandom.com##.top-ads-container
+https://playlist.megaphone.fm?p=FOXM2059868704&episodes=3$domain=tmz.com
+mail.proton.me##[data-testid="cta:upgrade-plan"]
+neowin.net###sidebar > div.widget-content:nth-child(5)
+neowin.net###sidebar > div.widget-header:nth-child(4)
+neowin.net###sidebar > div.widget.widget-poll:nth-child(9)
+sonic3air.boards.net###Boards_net_ForumViewInContent
+sonic3air.boards.net###Boards_net_ForumListInContent
+sonic3air.boards.net###Boards_net_InThread
+1337x.to##.slick-track
+||lx1.dyncdn.cc$empty,important
