@@ -1,6 +1,6 @@
 ﻿! Title: Boo Berry Adblocking filter
 ! Description: Additional adblocking filters maintained by whom calls himself Boo Berry.
-! Version: 2.0.0.33
+! Version: 2.0.0.34
 ! TimeUpdated: 2024-03-23
 ! Expires: 2 days (update frequency)
 ! Whitelist
@@ -10,7 +10,7 @@
 @@||outlook.live.com^$important,document
 @@||mail.proton.me^$important,document
 @@||oisd.nl^$important,document
-@@||outlook.office365.com/Encryption/authenticationpage.aspx^$important,document
+@@||outlook.office365.com^$important,document
 @@||time.windows.com^$important
 @@||msn.com/en-us/feed?ocid=winpstoreapp$important,removeparam
 @@||msn.com/en-us/weather/$important,removeparam
