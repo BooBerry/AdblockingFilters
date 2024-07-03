@@ -1,7 +1,7 @@
 ﻿! Title: Boo Berry Adblocking filter
 ! Description: Additional adblocking filters maintained by whom calls himself Boo Berry.
-! Version: 2.0.0.39
-! TimeUpdated: 2024-07-02
+! Version: 2.0.0.40
+! TimeUpdated: 2024-07-03
 ! Expires: 2 days (update frequency)
 ! Whitelist
 @@||192.168.1.1^$important,document
@@ -174,9 +174,3 @@ sonic3air.boards.net###Boards_net_InThread
 videocardz.com###vc-intermid-desktop-ad
 performance-pcs.com##div.widget.block.block-static-block:nth-child(7) > klarna-placement:first-child
 yahoo.com###mid-center-ad
-! Start - YTS Favicon Fix
-||yts.mx/assets/images/website/favicon-16x16.png$empty,important
-||yts.mx/assets/images/website/favicon-32x32.png$empty,important
-||yts.mx/assets/images/website/favicon-96x96.png$empty,important
-||yts.mx/assets/images/website/favicon-160x160.png$empty,important
-! End- YTS Favicon Fix
