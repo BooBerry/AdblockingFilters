@@ -1,23 +1,9 @@
 ﻿! Title: Boo Berry Adblocking filter
 ! Description: Additional adblocking filters maintained by whom calls himself Boo Berry.
-! Version: 2.0.0.41
-! TimeUpdated: 2024-09-18
+! Version: 2.0.0.44
+! TimeUpdated: 2024-12-21
 ! Expires: 2 days (update frequency)
 ! Whitelist
-@@||192.168.1.1^$important,document
-@@||192.168.1.135^$important,document
-@@||paypal.com^$important,document
-@@||discover.com^$important,document
-@@||bitwarden.com^$important,document
-@@||bitwarden.net^$important,document
-@@||outlook.live.com^$important,document
-@@||mail.proton.me^$important,document
-@@||tplinkwifi.net^$important,document
-@@||oisd.nl^$important,document
-@@||outlook.office365.com^$important,document
-@@||time.windows.com^$important
-@@||msn.com/en-us/feed?ocid=winpstoreapp$important,removeparam
-@@||msn.com/en-us/weather/$important,removeparam
 ! Start - RuTracker
 @@||appspot.com^$script,xmlhttprequest,domain=rutracker-org.appspot.com
 @@||chickenkiller.com/ru/ads/userads/templates/*.all.min.css$domain=rutracker-org.appspot.com
@@ -176,3 +162,4 @@ performance-pcs.com##div.widget.block.block-static-block:nth-child(7) > klarna-p
 yahoo.com###mid-center-ad
 qobuz.com##.store-wallpaper__image
 qobuz.com##.store-wallpaper
+tmz.com##.alert-widget, .alert-widget--in-site
