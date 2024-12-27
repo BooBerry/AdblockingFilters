@@ -98,8 +98,7 @@ tmz.com#$#body > img[alt="tmz tour promo"] { display: none !important; }
 ||playlist.megaphone.fm/
 ! End - TMZ
 ! Start - YTS Firefox Favicon Fix
-||yts.mx/assets/images/website/apple-touch-icon-*x*.png$empty,important
-||yts.mx/assets/images/website/favicon-16x16.png$empty,important
+||yts.mx^$document,replace=/favicon-16x16.png/favicon-32x32.png/
 ! End - YTS Firefox Favicon Fix
 ! Start - KY3
 ky3.com##.sponsor-name
