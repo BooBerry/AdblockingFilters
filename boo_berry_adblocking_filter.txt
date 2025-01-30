@@ -1,7 +1,7 @@
 ﻿! Title: Boo Berry Adblocking filter
 ! Description: Additional adblocking filters maintained by whom calls himself Boo Berry.
-! Version: 2.0.0.47
-! TimeUpdated: 2025-01-20
+! Version: 2.0.0.48
+! TimeUpdated: 2025-01-30
 ! Expires: 2 days (update frequency)
 ! Whitelist
 ! Start - RuTracker
@@ -132,6 +132,11 @@ neowin.net###sidebar > div.widget.widget-poll:nth-child(8)
 https://cdn.neowin.com/news/images/uploaded/2023/04/1682624434_test_1.png$domain=neowin.net
 https://cdn.neowin.com/news/images/uploaded/2023/04/1682607425_google-news-button-s.png$domain=neowin.net
 ! End - Neowin
+! Start - Discord
+@@||cdn.discordapp.com/bad-domains/current_revision.txt$important
+@@||updates.discord.com$important
+@@||discord.com/assets/version.stable.json$important
+! End - Discord
 phantomsandmonsters.com###ezoic-certification
 ebay.com###gh-hsi
 cart.ebay.com##.banner
