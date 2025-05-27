@@ -175,5 +175,4 @@ tmz.com##.alert-widget, .alert-widget--in-site
 @@||msn.com/en-us/feed?ocid=winpstoreapp$important
 @@||$removeparam=ocid,document,domain=msn.com,important
 @@||rover.ebay.com/roverclk/$domain=ebay.com,important
-pornxbit.com###sidebar
 neowin.net###sidebar > div.code-widget:nth-child(15)
