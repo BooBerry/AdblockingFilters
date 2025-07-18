@@ -1,7 +1,7 @@
 ﻿! Title: Boo Berry Adblocking filter
 ! Description: Additional adblocking filters maintained by whom calls himself Boo Berry.
-! Version: 2.0.0.51
-! TimeUpdated: 2025-05-27
+! Version: 2.0.0.53
+! TimeUpdated: 2025-07-18
 ! Expires: 2 days (update frequency)
 ! Whitelist
 ! Start - RuTracker
@@ -9,6 +9,11 @@
 @@||chickenkiller.com/ru/ads/userads/templates/*.all.min.css$domain=rutracker-org.appspot.com
 @@||rutrk.org/logo/
 @@||whiteriver.smarthub.coop^$important,document
+@@||msn.com/en-us/feed?ocid=winpstoreapp$important
+@@||$removeparam=ocid,document,domain=msn.com,important
+@@||rover.ebay.com/roverclk/$domain=ebay.com,important
+@@||mutualofomaha.com^$important,document
+@@||doordash.com^$important,document
 rutracker.appspot.com,rutracker-org.appspot.com,rutracker.cr,rutracker.lib,rutracker.net,rutracker.nl,rutracker.org#?#.attach td[colspan="3"] > ul.middot-separated > li:-abp-has(> a[href^="https://go.nordvpn.net/"])
 rutracker.appspot.com,rutracker-org.appspot.com,rutracker.cr,rutracker.lib,rutracker.net,rutracker.nl,rutracker.org#?#.attach td[colspan="3"] > ul.middot-separated > li:has(> a[href^="https://go.nordvpn.net/"])
 nntt.org,rus-media.org,rutor.in,rutracker.in#%#//scriptlet("prevent-addEventListener", "load", "PopSettings")
@@ -172,7 +177,6 @@ yahoo.com###mid-center-ad
 qobuz.com##.store-wallpaper__image
 qobuz.com##.store-wallpaper
 tmz.com##.alert-widget, .alert-widget--in-site
-@@||msn.com/en-us/feed?ocid=winpstoreapp$important
-@@||$removeparam=ocid,document,domain=msn.com,important
-@@||rover.ebay.com/roverclk/$domain=ebay.com,important
 neowin.net###sidebar > div.code-widget:nth-child(15)
+flickr.com##.pro-text
+https://limeiptv.to/static/b2.gif$domain=1337x.to
