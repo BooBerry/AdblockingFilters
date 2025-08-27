@@ -1,7 +1,7 @@
 ﻿! Title: Boo Berry Adblocking filter
 ! Description: Additional adblocking filters maintained by whom calls himself Boo Berry.
-! Version: 2.0.0.56
-! TimeUpdated: 2025-08-08
+! Version: 2.0.0.57
+! TimeUpdated: 2025-08-27
 ! Expires: 2 days (update frequency)
 ! Whitelist
 ! Start - RuTracker
@@ -104,7 +104,7 @@ tmz.com##div#ad-interstitial
 tmz.com##div#ad-skin
 tmz.com#$#body > img[alt="tmz tour promo"] { display: none !important; }
 ||minigames.versusgame.com/widget/
-||playlist.megaphone.fm/
+||playlist.megaphone.fm?p=*$domain=tmz.com
 ! End - TMZ
 ! Start - YTS Firefox Favicon Fix
 ||yts.mx^$document,app=firefox.exe|firefox,replace=/favicon-16x16.png/favicon-32x32.png/
