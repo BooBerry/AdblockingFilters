@@ -1,10 +1,9 @@
 ﻿! Title: Boo Berry Adblocking filter
 ! Description: Additional adblocking filters maintained by whom calls himself Boo Berry.
-! Version: 2.0.0.57
-! TimeUpdated: 2025-08-27
+! Version: 2.0.0.58
+! TimeUpdated: 2025-09-16
 ! Expires: 2 days (update frequency)
 ! Whitelist
-! Start - RuTracker
 @@||appspot.com^$script,xmlhttprequest,domain=rutracker-org.appspot.com
 @@||chickenkiller.com/ru/ads/userads/templates/*.all.min.css$domain=rutracker-org.appspot.com
 @@||rutrk.org/logo/
@@ -17,6 +16,11 @@
 @@||rover.ebay.com/roverclk/$domain=ebay.com,important
 @@||mutualofomaha.com^$important,document
 @@||doordash.com^$important,document
+! Fix the ongoing YouTube PC view drop issue
+@@||youtube.com/api/stats/atr?ns=$important
+@@||youtube.com/api/stats/qoe?fmt=$important
+@@||youtube.com/ptracking?html5=1&$important
+! Start - RuTracker
 rutracker.appspot.com,rutracker-org.appspot.com,rutracker.cr,rutracker.lib,rutracker.net,rutracker.nl,rutracker.org#?#.attach td[colspan="3"] > ul.middot-separated > li:-abp-has(> a[href^="https://go.nordvpn.net/"])
 rutracker.appspot.com,rutracker-org.appspot.com,rutracker.cr,rutracker.lib,rutracker.net,rutracker.nl,rutracker.org#?#.attach td[colspan="3"] > ul.middot-separated > li:has(> a[href^="https://go.nordvpn.net/"])
 nntt.org,rus-media.org,rutor.in,rutracker.in#%#//scriptlet("prevent-addEventListener", "load", "PopSettings")
