@@ -1,7 +1,7 @@
 ﻿! Title: Boo Berry Adblocking filter
 ! Description: Additional adblocking filters maintained by whom calls himself Boo Berry.
-! Version: 2.0.0.58
-! TimeUpdated: 2025-09-16
+! Version: 2.0.0.59
+! TimeUpdated: 2025-09-17
 ! Expires: 2 days (update frequency)
 ! Whitelist
 @@||appspot.com^$script,xmlhttprequest,domain=rutracker-org.appspot.com
@@ -19,7 +19,6 @@
 ! Fix the ongoing YouTube PC view drop issue
 @@||youtube.com/api/stats/atr?ns=$important
 @@||youtube.com/api/stats/qoe?fmt=$important
-@@||youtube.com/ptracking?html5=1&$important
 ! Start - RuTracker
 rutracker.appspot.com,rutracker-org.appspot.com,rutracker.cr,rutracker.lib,rutracker.net,rutracker.nl,rutracker.org#?#.attach td[colspan="3"] > ul.middot-separated > li:-abp-has(> a[href^="https://go.nordvpn.net/"])
 rutracker.appspot.com,rutracker-org.appspot.com,rutracker.cr,rutracker.lib,rutracker.net,rutracker.nl,rutracker.org#?#.attach td[colspan="3"] > ul.middot-separated > li:has(> a[href^="https://go.nordvpn.net/"])
