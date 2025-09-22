@@ -1,7 +1,7 @@
 ﻿! Title: Boo Berry Adblocking filter
 ! Description: Additional adblocking filters maintained by whom calls himself Boo Berry.
-! Version: 2.0.0.62
-! TimeUpdated: 2025-09-21
+! Version: 2.0.0.63
+! TimeUpdated: 2025-09-22
 ! Expires: 2 days (update frequency)
 ! Whitelist
 @@||appspot.com^$script,xmlhttprequest,domain=rutracker-org.appspot.com
@@ -22,6 +22,11 @@
 @@||doordash.com^$stealth
 @@||gitflic.ru^$important,document
 @@||challenges.cloudflare.com^$important,document
+! Netflix fixes
+@@||ichnaea-web.netflix.com^$important
+@@||logs.netflix.com^$important
+@@||logs.dradis.netflix.com^$important
+@@||oca.nflxvideo.net^$important
 ! Fix the ongoing YouTube PC view drop issue
 @@||youtube.com/api/stats/atr?ns=$important
 @@||youtube.com/api/stats/qoe?fmt=$important
