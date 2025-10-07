@@ -1,7 +1,7 @@
 ﻿! Title: Boo Berry Adblocking filter
 ! Description: Additional adblocking filters maintained by whom calls himself Boo Berry.
-! Version: 2.0.0.63
-! TimeUpdated: 2025-09-22
+! Version: 2.0.0.64
+! TimeUpdated: 2025-10-07
 ! Expires: 2 days (update frequency)
 ! Whitelist
 @@||appspot.com^$script,xmlhttprequest,domain=rutracker-org.appspot.com
@@ -200,3 +200,11 @@ https://limeiptv.to/static/b2.gif$domain=1337x.to
 amazon.com###sc-new-upsell
 unexplained-mysteries.com###support-desktop-button
 deviantart.com##._3TJgs
+neowin.net###global_above_community_activity > div.widget-content
+neowin.net###sidebar > div.widget.widget-ad.widget-ad-sidebar-middle:nth-child(6)
+neowin.net###sidebar > div.widget.widget-ad.widget-ad-sidebar-middle:nth-child(9)
+neowin.net###codewidget-10 > div.code-widget
+neowin.net##.stickyAd, .widget-ad, .widget-ad-sidebar-bottom
+neowin.net###content > div.nav-secondary-menu-container:first-child > div.wrap > ul.nav-secondary-menu > li:nth-child(9) > a
+rutracker.org###bn-top-right > a > img
+rutracker.org###bn-top-block
