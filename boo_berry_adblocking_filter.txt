@@ -1,4 +1,5 @@
-﻿! Title: Boo Berry Adblocking filter
+﻿!
+! Title: Boo Berry Adblocking filter
 ! Description: Additional adblocking filters maintained by whom calls himself Boo Berry.
 ! Version: 2.0.0.65
 ! TimeUpdated: 2025-10-17
