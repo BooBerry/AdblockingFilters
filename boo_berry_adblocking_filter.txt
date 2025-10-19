@@ -1,8 +1,7 @@
-﻿!
-! Title: Boo Berry Adblocking filter
+﻿! Title: Boo Berry Adblocking filter
 ! Description: Additional adblocking filters maintained by whom calls himself Boo Berry.
-! Version: 2.0.0.65
-! TimeUpdated: 2025-10-17
+! Version: 2.0.0.66
+! TimeUpdated: 2025-10-19
 ! Expires: 2 days (update frequency)
 ! Whitelist
 @@||192.168.1.1^$important,document
@@ -212,3 +211,9 @@ neowin.net##.stickyAd, .widget-ad, .widget-ad-sidebar-bottom
 neowin.net###content > div.nav-secondary-menu-container:first-child > div.wrap > ul.nav-secondary-menu > li:nth-child(9) > a
 rutracker.org###bn-top-right > a > img
 rutracker.org###bn-top-block
+reddit.com##faceplate-tracker[noun="games_drawer"]
+reddit.com##faceplate-tracker[noun="games_drawer"] + hr
+reddit.com##[noun="gen_guides_sidebar"]
+reddit.com##faceplate-expandable-section-helper:has([aria-controls="multireddits_section"]), faceplate-expandable-section-helper:has([aria-controls="multireddits_section"])+hr
+reddit.com###flex-left-nav-contents faceplate-expandable-section-helper:has(> details > summary > [noun="multireddits_menu"])
+reddit.com###flex-left-nav-contents faceplate-expandable-section-helper:has(> details > summary > [noun="multireddits_menu"]) + hr
