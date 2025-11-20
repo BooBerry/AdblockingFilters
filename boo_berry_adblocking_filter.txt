@@ -1,7 +1,7 @@
 ﻿! Title: Boo Berry Adblocking filter
 ! Description: Additional adblocking filters maintained by whom calls himself Boo Berry.
-! Version: 2.0.0.68
-! TimeUpdated: 2025-11-19
+! Version: 2.0.0.69
+! TimeUpdated: 2025-11-20
 ! Expires: 2 days (update frequency)
 ! Whitelist
 @@||192.168.1.1^$important,document
@@ -171,6 +171,8 @@ ky3.com##div.col-xl-12.col-lg-12.col-md-4.col-12.flex-column.d-flex.px-2.\|.chai
 ky3.com##div.col-xl-12.col-lg-12.col-md-4.col-12.flex-column.d-flex.px-2.\|.chain-item:nth-of-type(6)
 ky3.com##.flex-lg-fill.flex-column.d-flex.rail.\|.top-right-rail > div.mb-3.flex-column.d-flex.chain.\|.default-chain:nth-of-type(3)
 ky3.com###homepage-alternate-layout > div.container-xl:nth-child(5) > div.row > div.col-12.d-flex.flex-column.flex-lg-row.w-100:nth-child(2) > section.top-featured.\|.flex-lg-fill.mr-lg-3:first-child > div.hero.\|.mb-3:first-child > div.row.no-gutters > div.hero-right.col-lg-5.col-md-5.col-sm-12.pl-md-2:nth-child(2) > div.flex-feature.\|.card.mb-3.align-items-start.bg-transparent.border-0.image-left.position-relative.w-100:last-child > div.card-body.w-100.px-1.py-0.image_headline > div.small.text-secondary:last-child
+ky3.com##div.small.text-secondary:has-text(Sponsored)
+ky3.com###htmlBox-f0ffwxjhNCXDX4-container > iframe
 ! End - KY3
 ! Start - Neowin
 neowin.net##.header-banner-advertising
