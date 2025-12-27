@@ -1,7 +1,7 @@
 ﻿! Title: Boo Berry Adblocking filter
 ! Description: Additional adblocking filters maintained by whom calls himself Boo Berry.
-! Version: 2.0.0.69
-! TimeUpdated: 2025-11-20
+! Version: 2.0.0.70
+! TimeUpdated: 2025-12-27
 ! Expires: 2 days (update frequency)
 ! Whitelist
 @@||192.168.1.1^$important,document
@@ -11,7 +11,7 @@
 @@||chickenkiller.com/ru/ads/userads/templates/*.all.min.css$domain=rutracker-org.appspot.com
 @@||rutrk.org/logo/
 @@||whiteriver.smarthub.coop^$important,document
-@@||paypal.com^$important,document
+@@||paypal.com^$document
 @@||paypal.com^$stealth
 @@||login.live.com^$important,document
 @@||account.microsoft.com^$important,document
@@ -25,6 +25,7 @@
 @@||doordash.com^$stealth
 @@||gitflic.ru^$important,document
 @@||challenges.cloudflare.com^$important,document
+@@||acai.whatbox.ca^$important,document
 ! Netflix fixes
 @@||ichnaea-web.netflix.com^$important
 @@||logs.netflix.com^$important
@@ -195,7 +196,7 @@ https://cdn.neowin.com/news/images/uploaded/2023/04/1682607425_google-news-butto
 phantomsandmonsters.com###ezoic-certification
 ebay.com###gh-hsi
 cart.ebay.com##.banner
-albumartexchange.com##header:first-child > div.grid-container > form:nth-child(2) > input:last-child
+albumartexchange.com##header:first-child > div.grid-container > form:nth-child(2)
 warez-v3.org###phpbb_announcement
 app.mediafire.com###frame1
 forum.adguard.com###top > div.xb-page-wrapper.xb-canvas-menuActive:last-child > div.xb-content-wrapper:nth-child(3) > div.p-body:last-child > div.p-body-inner > div.p-body-main.p-body-main--withSidebar.xb-sidebar-default:nth-child(4) > div.p-body-content:first-child > div.p-body-pageContent > div.block.block--category.block--category3.collapsible-nodes:last-child
