@@ -1,7 +1,7 @@
 ﻿! Title: Boo Berry Adblocking filter
 ! Description: Additional adblocking filters maintained by whom calls himself Boo Berry.
-! Version: 2.0.0.73
-! TimeUpdated: 2026-01-28
+! Version: 2.0.0.74
+! TimeUpdated: 2026-01-29
 ! Expires: 2 days (update frequency)
 ! Whitelist
 @@||192.168.1.1^$important,document
@@ -107,6 +107,7 @@ https://media.tmz.com/*/tmz-store-right-rail-week-*.jpg$domain=tmz.com
 https://media.tmz.com/*/tmz-tour-300x600*.jpg$domain=tmz.com
 tmz.com##DIV#grv-personalization-23
 tmz.com##IMG[alt="TMZ Sports Show"]
+tmz.com##img[alt="tmz sports promo"]
 tmz.com##IMG[alt="TMZ TOUR"]
 tmz.com##DIV#adpos3
 tmz.com##div[data-url="/_/promotion/home-blogroll-after-9/blogroll.html"]
@@ -124,6 +125,7 @@ tmz.com#$#body > img[alt="tmz tour promo"] { display: none !important; }
 tmz.com###ad-header
 tmz.com###header-wrapper > div.ad-header-wrapper
 tmz.com##div[id^="tmz-floating-wrapper-"]
+tmz.com##[id*="ad-blogroll"]
 ||minigames.versusgame.com/widget/
 ||playlist.megaphone.fm?p=*$domain=tmz.com
 ! End - TMZ
