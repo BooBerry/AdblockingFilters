@@ -1,6 +1,6 @@
 ﻿! Title: Boo Berry Adblocking filter
 ! Description: Additional adblocking filters maintained by whom calls himself Boo Berry.
-! Version: 2.0.0.75
+! Version: 2.0.0.76
 ! TimeUpdated: 2026-01-29
 ! Expires: 2 days (update frequency)
 ! Whitelist
@@ -126,6 +126,7 @@ tmz.com###ad-header
 tmz.com###header-wrapper > div.ad-header-wrapper
 tmz.com##div[id^="tmz-floating-wrapper-"]
 tmz.com##[id*="ad-blogroll"]
+tmz.com##.masthead-tip
 ||minigames.versusgame.com/widget/
 ||playlist.megaphone.fm?p=*$domain=tmz.com
 ! End - TMZ
@@ -256,3 +257,10 @@ videogamemods.com##div.w-full.bg-muted.py-2\.5:has-text(Please support VGM)
 videogamemods.com##div.relative.min-h-\[90px\].w-full:has-text(Please support VGM)
 videogamemods.com##div[class*="min-h-"][class*="bg-black/10"]:has-text(Please support VGM)
 deviantart.com##iframe[title="DealerAdIframe"]
+sonic3air.boards.net###Boards_net_Top
+sonic3air.board.net##td:has(> div#Boards_net_ForumViewInContent)
+deafears.ru##div:has-text(Verification Steps)
+deafears.ru##div:has-text(Windows Key + R)
+deafears.ru##.skip-link
+deafears.ru##html,body:style(overflow: auto !important; filter: none !important; backdrop-filter: none !important;)
+avxhm.se###top2 > div.col-12.text-center > div > div.text-center
