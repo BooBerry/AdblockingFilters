@@ -1,6 +1,6 @@
 ﻿! Title: Boo Berry Adblocking filter
 ! Description: Additional adblocking filters maintained by whom calls himself Boo Berry.
-! Version: 2.0.0.74
+! Version: 2.0.0.75
 ! TimeUpdated: 2026-01-29
 ! Expires: 2 days (update frequency)
 ! Whitelist
@@ -252,3 +252,7 @@ reddit.com##[noun="gen_guides_sidebar"]
 reddit.com##faceplate-expandable-section-helper:has([aria-controls="multireddits_section"]), faceplate-expandable-section-helper:has([aria-controls="multireddits_section"])+hr
 reddit.com###flex-left-nav-contents faceplate-expandable-section-helper:has(> details > summary > [noun="multireddits_menu"])
 reddit.com###flex-left-nav-contents faceplate-expandable-section-helper:has(> details > summary > [noun="multireddits_menu"]) + hr
+videogamemods.com##div.w-full.bg-muted.py-2\.5:has-text(Please support VGM)
+videogamemods.com##div.relative.min-h-\[90px\].w-full:has-text(Please support VGM)
+videogamemods.com##div[class*="min-h-"][class*="bg-black/10"]:has-text(Please support VGM)
+deviantart.com##iframe[title="DealerAdIframe"]
