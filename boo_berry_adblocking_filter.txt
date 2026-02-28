@@ -1,7 +1,7 @@
 ﻿! Title: Boo Berry Adblocking filter
 ! Description: Additional adblocking filters maintained by whom calls himself Boo Berry.
-! Version: 2.0.0.78
-! TimeUpdated: 2026-02-22
+! Version: 2.0.0.79
+! TimeUpdated: 2026-02-28
 ! Expires: 2 days (update frequency)
 ! Whitelist
 @@||192.168.1.1^$important,document
@@ -266,3 +266,4 @@ deafears.ru##html,body:style(overflow: auto !important; filter: none !important;
 avxhm.se###top2 > div.col-12.text-center > div > div.text-center
 wrestlinginc.com###AdThrive_Footer_1_desktop
 reddit.com##in-feed-community-recommendations
+www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-rich-section-renderer:not(:has(>#content>[is-shorts],.grid-subheader))
