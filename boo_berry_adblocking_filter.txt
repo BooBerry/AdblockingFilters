@@ -1,4 +1,4 @@
-﻿﻿! Title: Boo Berry Adblocking filter
+﻿! Title: Boo Berry Adblocking filter
 ! Expires: 1 day (update frequency)
 ! Description: Additional adblocking filters maintained by whom calls himself Boo Berry.
 ! Homepage: https://github.com/BooBerry/AdblockingFilters
