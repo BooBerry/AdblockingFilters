@@ -3,8 +3,8 @@
 ! Description: Additional adblocking filters maintained by whom calls himself Boo Berry
 ! Homepage: https://github.com/BooBerry/AdblockingFilters
 ! License: MIT
-! Last modified: 2026-03-17
-! Version: 3.0.0.01
+! Last modified: 2026-03-18
+! Version: 3.0.0.02
 ! Whitelist
 @@||192.168.1.1^$important,document
 @@||192.168.1.131^$important,document
@@ -273,3 +273,4 @@ wrestlinginc.com###AdThrive_Footer_1_desktop
 reddit.com##in-feed-community-recommendations
 www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-rich-section-renderer:not(:has(>#content>[is-shorts],.grid-subheader))
 neowin.net###sidebar > div.widget.widget-ad.widget-ad-sidebar-middle:nth-child(6) > div.widget-content
+albumartexchange.com##form[action^="https://www.paypal.com/cgi-bin/webscr"]
