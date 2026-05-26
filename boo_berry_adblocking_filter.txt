@@ -3,8 +3,8 @@
 ! Description: Additional adblocking filters maintained by whom calls himself Boo Berry
 ! Homepage: https://github.com/BooBerry/AdblockingFilters
 ! License: MIT
-! Last modified: 2026-03-18
-! Version: 3.0.0.02
+! Last modified: 2026-05-26
+! Version: 3.0.0.03
 ! Whitelist
 @@||192.168.1.1^$important,document
 @@||192.168.1.131^$important,document
@@ -231,7 +231,7 @@ sonic3air.boards.net###Boards_net_ForumViewInContent
 sonic3air.boards.net###Boards_net_ForumListInContent
 sonic3air.boards.net###Boards_net_InThread
 1337x.to##.slick-track
-||lx1.dyncdn.cc$empty,important
+||lx1.dyncdn.cc$redirect=nooptext,important
 videocardz.com###vc-intermid-desktop-ad
 performance-pcs.com##div.widget.block.block-static-block:nth-child(7) > klarna-placement:first-child
 yahoo.com###mid-center-ad
@@ -274,3 +274,6 @@ reddit.com##in-feed-community-recommendations
 www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-rich-section-renderer:not(:has(>#content>[is-shorts],.grid-subheader))
 neowin.net###sidebar > div.widget.widget-ad.widget-ad-sidebar-middle:nth-child(6) > div.widget-content
 albumartexchange.com##form[action^="https://www.paypal.com/cgi-bin/webscr"]
+||html-load.cc/script/d3d3LndyZXN0bGV6b25lLmNvbQ.js$redirect=nooptext
+https://ptpimg.me/xi8971.png$domain=redacted.sh
+https://ptpimg.me/i47nd0.png$domain=redacted.sh
