@@ -3,10 +3,9 @@
 ! Description: Additional adblocking filters maintained by whom calls himself Boo Berry
 ! Homepage: https://github.com/BooBerry/AdblockingFilters
 ! License: MIT
-! Last modified: 2026-05-26
-! Version: 3.0.0.03
+! Last modified: 2026-06-15
+! Version: 3.0.0.04
 ! Whitelist
-@@||192.168.1.1^$important,document
 @@||192.168.1.131^$important,document
 @@||192.168.1.135^$important,document
 @@||appspot.com^$script,xmlhttprequest,domain=rutracker-org.appspot.com
@@ -138,6 +137,7 @@ tmz.com##.masthead-tip
 ||yts.mx^$document,app=firefox.exe|firefox,replace=/favicon-16x16.png/favicon-32x32.png/
 ||yts.lt^$document,app=firefox.exe|firefox,replace=/favicon-16x16.png/favicon-32x32.png/
 ||yts.bz^$document,app=firefox.exe|firefox,replace=/favicon-16x16.png/favicon-32x32.png/
+||yts.gg^$document,app=firefox.exe|firefox,replace=/favicon-16x16.png/favicon-32x32.png/
 ! End - YTS Firefox Favicon Fix
 ! Start - YTS Ads
 unblocked.*,dudestream.com,webserver.one,eztv.yt,sanoybonito.club,freestreams-live1.com,f1livegp.me,1bit.space,proxybit.casa,1337x.to,c-ut.com,picbaron.com,imgbaron.com,ouo.press,newepisodes.co,mp4upload.com,openloadmovies.ws,yts.lt#%#//scriptlet("abort-on-property-read", "runAdblock")
