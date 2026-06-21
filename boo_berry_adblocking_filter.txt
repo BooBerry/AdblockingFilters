@@ -3,11 +3,15 @@
 ! Description: Additional adblocking filters maintained by whom calls himself Boo Berry
 ! Homepage: https://github.com/BooBerry/AdblockingFilters
 ! License: MIT
-! Last modified: 2026-06-15
-! Version: 3.0.0.04
+! Last modified: 2026-06-21
+! Version: 3.0.0.05
 ! Whitelist
 @@||192.168.1.131^$important,document
 @@||192.168.1.135^$important,document
+@@||brave.com^$important,document
+@@||sync-v2.brave.com^$important,document
+@@||extensionupdater.brave.com^$important,document
+@@||chromewebstore.google.com^$important,document
 @@||appspot.com^$script,xmlhttprequest,domain=rutracker-org.appspot.com
 @@||chickenkiller.com/ru/ads/userads/templates/*.all.min.css$domain=rutracker-org.appspot.com
 @@||rutrk.org/logo/
